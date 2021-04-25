@@ -1,0 +1,379 @@
+body {
+  background-color: black;
+  color: white;
+  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Aria, sans-serif;
+  padding: 0 2rem;
+  width: 100% !important;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  margin: 0;
+  padding: 0;
+  line-height: 100%;
+}
+
+/* #bodyTable,
+#bodyCell {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+} */
+.headling-cell {
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+#background-img {
+  background-color: #000000;
+  /* Logo VOD */
+  background-image: url("https://ocdn.eu/ucs/static/vod/b09832c253a75992ca4c33fee7d18bae/build/img/new_logo_svg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border-top: 0;
+  border-bottom: 0;
+  height: 55px;
+  margin-top: 54px;
+  margin-bottom: 60px;
+}
+
+#headling {
+  background-color: transparent;
+  background-image: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-top: 0;
+  border-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#second-part {}
+
+#footer {
+  background-color: #000000;
+  background-image: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-top: 0;
+  border-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 63px;
+}
+
+.table-containter {
+  background-color: #000000;
+  height: 100%;
+  margin: 0;
+  padding: 3rem;
+  width: 100%;
+  overflow-x: auto;
+}
+
+tbody {
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-top: 0;
+  border-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 20px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+table {
+  max-width: 600px;
+  border-collapse: collapse;
+  mso-table-lspace: 0pt;
+  mso-table-rspace: 0pt;
+}
+
+table td {
+  border-collapse: collapse;
+}
+
+/* TEXT */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+p,
+a,
+li,
+td,
+blockquote {
+  mso-line-height-rule: exactly;
+}
+
+a[href^=tel],
+a[href^=sms] {
+  color: inherit;
+  cursor: default;
+  text-decoration: none;
+}
+
+p,
+a,
+li,
+td,
+body,
+table,
+blockquote {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+.headling-h1 {
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 150%;
+  letter-spacing: normal;
+  text-align: center;
+  margin-top: 2.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.headling-p {
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 150%;
+  text-align: center;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.second-h1 {
+  font-size: 1.75rem;
+  line-height: 28px;
+  color: #e12a27;
+  text-decoration: line-through;
+  margin-top: 2.2rem;
+  margin-bottom: 1.2rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.grid-paragraph {
+  color: white;
+  font-family: Arial;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+#footer p {
+  text-align: center;
+  font-family: arial, sans-serif;
+  color: #fff9f9;
+  font-size: 9px;
+  line-height: 9px;
+}
+
+.footerlink-1 {
+  color: #15c;
+}
+
+.footerlink-2 {
+  color: #e12a27;
+  text-decoration: underline;
+}
+
+/* IMAGES */
+img {
+  outline: none;
+  text-decoration: none;
+  border: none;
+  -ms-interpolation-mode: bicubic;
+  max-width: 100% !important;
+  margin: 0;
+  padding: 0;
+}
+
+.headling-img {}
+
+.img-grid {
+  text-align: center;
+  padding-left: 9px;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 9px;
+}
+
+.img-grid-photo {
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.social-icons a {
+  text-decoration: none;
+}
+
+.social-icon {
+  margin-right: 20px;
+}
+
+img,
+a img {
+  border: 0;
+  height: auto;
+  outline: none;
+  text-decoration: none;
+}
+
+img {
+  -ms-interpolation-mode: bicubic;
+}
+
+/* BUTTONS */
+.button-red {
+  background-color: #ff0c0c;
+  display: inline-block;
+  text-align: center;
+  font-size: 15px;
+  font-family: Berkshire Swash, Arial, Helvetica, cursive;
+  font-weight: 700;
+  text-decoration: none solid #ffffff;
+  color: #ffffff;
+  line-height: 100%;
+  border-style: none;
+  text-transform: uppercase;
+  border-radius: 46px;
+  padding: 13px 30px 13px 30px;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+/* DIVIDERS */
+.divider-tr {
+  height: 3rem;
+}
+
+.divider-tr-2 {
+  height: 2rem;
+}
+
+.divider-line {
+  border-top: 1px solid white;
+}
+
+.divider-line-bottom {
+  margin-top: 3rem;
+}
+
+hr {
+  border-top: 1px solid white;
+}
+
+#outlook a {
+  padding: 0;
+}
+
+.ReadMsgBody {
+  width: 100%;
+}
+
+.ExternalClass {
+  width: 100%;
+}
+
+.ExternalClass,
+.ExternalClass p,
+.ExternalClass td,
+.ExternalClass div,
+.ExternalClass span,
+.ExternalClass font {
+  line-height: 100%;
+}
+
+a[x-apple-data-detectors] {
+  color: inherit !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+}
+
+.templateContainer {
+  max-width: 600px !important;
+}
+
+/* MEDIA QUERY */
+@media only screen and (min-width:768px) {
+  .templateContainer {
+    width: 600px !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+
+  body,
+  table,
+  td,
+  p,
+  a,
+  li,
+  blockquote {
+    -webkit-text-size-adjust: none !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    width: 100% !important;
+    min-width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .img-grid {
+    padding: 9px !important;
+  }
+
+  .button-red {
+    font-size: 0.8rem;
+    padding: 7px 15px 7px 15px;
+  }
+
+  .headling-h1 {
+    font-size: 1.5rem;
+    line-height: 120%;
+  }
+
+  .max-width-480px {}
+}
+
+@media only screen and (max-width: 480px) {
+
+  .headling-h1,
+  .grid-paragraph {
+    padding-right: 18px !important;
+    padding-left: 18px !important;
+  }
+}
