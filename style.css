@@ -2,7 +2,6 @@ body {
   background-color: black;
   color: white;
   height: 100%;
-  margin: 0;
   box-sizing: border-box;
   font-family: Aria, sans-serif;
   padding: 0 2rem;
@@ -10,7 +9,6 @@ body {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   margin: 0;
-  padding: 0;
   line-height: 100%;
 }
 
@@ -278,6 +276,10 @@ img {
   height: 2rem;
 }
 
+.divider-tr-3 {
+  height: 2rem;
+}
+
 .divider-line {
   border-top: 1px solid white;
 }
@@ -364,9 +366,50 @@ a[x-apple-data-detectors] {
   .headling-h1 {
     font-size: 1.5rem;
     line-height: 120%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 
-  .max-width-480px {}
+  .headling-p {
+    font-size: 0.8rem;
+  }
+
+  .second-h1 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  td {
+    display: block;
+    width: 100%;
+  }
+
+  tr {
+    margin-bottom: 30px;
+  }
+
+  tr tr {
+    margin-bottom: 0;
+  }
+
+  .headling-cell {
+    padding-bottom: 0.5rem;
+  }
+
+  .divider-tr-3,
+  .divider-tr-2,
+  .divider-tr {
+    height: 0.5rem;
+  }
+
+  #background-img {
+    margin-top: 10px;
+    margin-bottom: 1rem;
+  }
 }
 
 @media only screen and (max-width: 480px) {
